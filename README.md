@@ -8,5 +8,4 @@ Follow [this guide](https://geraltofrivia783.notion.site/A-pedantic-guide-to-get
 
 # Session 1 - Oct 06, 2022
 
-The goal would be to get used to PyTorch tensors, look at automatic gradient calculation and (if time permits), backpropagate and learn a super simple neural network on a toy dataset.
- 
+We went through the basics of supervised machine learning, including learning objectives, loss functions, gradient descent. 
