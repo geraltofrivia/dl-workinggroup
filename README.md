@@ -1,6 +1,4 @@
-Here be demons (heavy WIP).
-
-We organise hands-on and other resources in their respective directories.
+This repository consists the Jupyter Notebooks, and other resources for our Deep Learning From Scratch Working Group, executed at Semagramme, INRIA Nancy in 2022-2023 by yours truly.
 
 # Getting Started
 
