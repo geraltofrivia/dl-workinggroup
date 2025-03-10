@@ -20,12 +20,7 @@ Then, navigate to the repo and just do a `uv sync`.
 ### Optional Dependency - Graphviz
 
 THIS IS REALLY NOT NEEDED but if you want to follow along _every_ step of the way, 
-    install [Graphviz](https://graphviz.org/download/) on your machine. 
-
-### Running the Notebooks
-
-My preferred approach would be to have `visual studio code` running on your machine. 
-Install the necessary extensions (python, jupyter), and you're good to go.
+    install [Graphviz](https://graphviz.org/download/) on your machine.
 
 ### Testing if you're all good
 
@@ -34,3 +29,47 @@ Run the following command in your terminal (in the project's root directory):
 ```bash
 uv run test_setup.py
 ```
+
+-----
+
+### For the Unconvinced
+
+> none of this new-age fancy tools :grumble grumble: tell me what you need in plain text :grumble grumble: !
+
+Have a python env (v3.12+) capable of running notebooks, and have the following libraries installed:
+```
+numpy
+torch
+torchvision
+matplotlib
+jupyter
+scikit-learn
+seaborn
+pandas
+tqdm
+```
+
+# Running the Notebooks
+
+My preferred approach would be to have `visual studio code` running on your machine. 
+Install the necessary extensions (python, jupyter), and you're good to go.
+
+Open the repository in VS Code.
+PS: You could also just `code .` from within the project's root directory.
+
+Next, open any notebook. Say `./notebooks/1. - Play with tensors.ipynb`.
+
+See the "Select Kernel" on the top right:
+
+![Select Kernel button on top right](.imgs/_setup_select_kernel.png)
+
+In some cases, you might be asked to choose what kind of environments. Go for "Python Environments".
+Ideally, you should find `.venv/bin/python` on macOS and Linux, or `.venv\Scripts\python` on Windows.
+
+![Select Python Environment](.imgs/_setup_select_kernel_choices.png)
+
+Just try executing the first cell (the one with imports) to verify if it works.
+
+----
+
+That said, you should be good to run the notebook as you prefer. In browser > Jetbrains IDE fwiw. 
