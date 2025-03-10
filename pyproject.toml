@@ -1,0 +1,23 @@
+[project]
+name = "dl-workinggroup"
+version = "0.1.0"
+description = "We are a working group that focuses on deep learning"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=3.3.2",
+    "matplotlib>=3.10.1",
+    "numpy>=2.2.3",
+    "pandas>=2.2.3",
+    "scikit-learn>=1.6.1",
+    "seaborn>=0.13.2",
+    "torch>=2.6.0",
+    "torchvision>=0.21.0",
+    "torchviz>=0.0.3",
+    "tqdm>=4.67.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
