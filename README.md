@@ -9,10 +9,10 @@ All that you have to do is to run the shell file - `setup.sh` - and you are good
 
 ### For Windows Users
 
-Step 1: Format your hard drive
-Step 2: Install your preferred Linux distro
-Step 3: ???
-Step 4: Profit?
+- Step 1: Format your hard drive
+- Step 2: Install your preferred Linux distro
+- Step 3: ???
+- Step 4: Profit?
 
 okbutforrealthough: idk how to run shell scripts on windows. You want to have `uv` installed in your system. 
 Then, navigate to the repo and just do a `uv sync`.
