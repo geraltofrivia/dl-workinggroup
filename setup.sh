@@ -9,6 +9,8 @@ echo "Initializing project setup..."
 if ! command -v uv &> /dev/null; then
     echo "uv not found. Installing uv..."
     curl -LsSf https://astral.sh/uv/install.sh | sh
+    # Update the path to include uv
+    export PATH=$PATH:$HOME/.local/bin
 fi
 
 # 2. Installing project dependencies
