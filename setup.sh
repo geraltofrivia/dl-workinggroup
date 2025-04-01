@@ -17,4 +17,7 @@ fi
 echo "Installing dependencies..."
 uv sync
 
+# 3. Adding spacy model for 6 series sessions
+uv run -- spacy download en_core_web_sm
+
 ## aaaaaaaand that's it! 🚀 (long live UV)
