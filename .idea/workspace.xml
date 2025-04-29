@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8073912c-8669-4c94-a37c-050d44f3becf" name="Changes" comment="Prep for sesh 5.1 / 6th session">
-      <change afterPath="$PROJECT_DIR$/test_setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dl-workinggroup.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dl-workinggroup.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8073912c-8669-4c94-a37c-050d44f3becf" name="Changes" comment="Updated for PySquad session 8 (Onehot)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/5.3 MNIST.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/5.3 MNIST.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/1. Play with tensors.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/1. Play with tensors.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/2. Naked Tensors - Linear Clf [COMPLETE].ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/2. Naked Tensors - Linear Clf [COMPLETE].ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/2. Naked Tensors - Linear Clf copy.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/2. Naked Tensors - Linear Clf copy.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/3. Introducing some structure [COMPLETE].ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/3. Introducing some structure [COMPLETE].ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/3. Introducing some structure.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/3. Introducing some structure.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/4.1 Modeling Capacity [COMPLETE].ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/4.1 Modeling Capacity [COMPLETE].ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/4.1 Modeling Capacity.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/4.1 Modeling Capacity.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/4.? Fitting Moons.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/4.? Fitting Moons.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/5.2 Classification IRL [COMPLETE].ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/5.2 Classification IRL [COMPLETE].ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/6.1 One-Hot Sentiment Analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/6.1 One-Hot Sentiment Analysis.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/6.1.2 Model &amp; Training [COMPLETED].ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/6.1.2 Model &amp; Training [COMPLETED].ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +56,16 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.imgs" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.25659.43" />
-        <option value="bundled-python-sdk-181015f7ab06-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.25659.43" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.26053.29" />
+        <option value="bundled-python-sdk-b1dbf8ef85a6-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.26053.29" />
       </set>
     </attachedChunks>
   </component>
@@ -69,7 +80,10 @@
       <workItem from="1739960002110" duration="3107000" />
       <workItem from="1740490244184" duration="3046000" />
       <workItem from="1741622801406" duration="2468000" />
-      <workItem from="1741625420727" duration="749000" />
+      <workItem from="1741625420727" duration="2702000" />
+      <workItem from="1742291386883" duration="3451000" />
+      <workItem from="1742314585568" duration="1214000" />
+      <workItem from="1743509837076" duration="3094000" />
     </task>
     <task id="LOCAL-00001" summary="updating for post gr revision">
       <option name="closed" value="true" />
@@ -111,7 +125,71 @@
       <option name="project" value="LOCAL" />
       <updated>1741096338975</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Wrapping it up nicely, with a bowtie.">
+      <option name="closed" value="true" />
+      <created>1741626631888</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1741626631888</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updated readme">
+      <option name="closed" value="true" />
+      <created>1741626685073</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1741626685073</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Updated readme even more">
+      <option name="closed" value="true" />
+      <created>1741627701000</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1741627701000</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Updated permissions for the setup file">
+      <option name="closed" value="true" />
+      <created>1741627720957</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1741627720957</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added a path thingy to setup so the script can detect uv after installing it.">
+      <option name="closed" value="true" />
+      <created>1742291571001</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1742291571001</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Updated for PySquad session 7 (BCEvsMSE+ MNIST)">
+      <option name="closed" value="true" />
+      <created>1742312768657</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1742312768657</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Updated for PySquad session 8 (Onehot)">
+      <option name="closed" value="true" />
+      <created>1743509859835</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1743509859835</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Updated for PySquad session 8 (Onehot)">
+      <option name="closed" value="true" />
+      <created>1743511896329</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1743511896329</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +199,13 @@
     <MESSAGE value="updating for post gr revision" />
     <MESSAGE value="prep for 5.0 sesh ^^'" />
     <MESSAGE value="Prep for sesh 5.1 / 6th session" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prep for sesh 5.1 / 6th session" />
+    <MESSAGE value="Wrapping it up nicely, with a bowtie." />
+    <MESSAGE value="Updated readme" />
+    <MESSAGE value="Updated readme even more" />
+    <MESSAGE value="Updated permissions for the setup file" />
+    <MESSAGE value="added a path thingy to setup so the script can detect uv after installing it." />
+    <MESSAGE value="Updated for PySquad session 7 (BCEvsMSE+ MNIST)" />
+    <MESSAGE value="Updated for PySquad session 8 (Onehot)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated for PySquad session 8 (Onehot)" />
   </component>
 </project>
