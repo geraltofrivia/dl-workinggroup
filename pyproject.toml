@@ -6,13 +6,17 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "datasets>=3.3.2",
+    "faiss-cpu>=1.11.0",
     "gensim>=4.3.3",
+    "hf-xet>=1.1.2",
     "matplotlib>=3.10.1",
+    "ollama>=0.5.1",
     "pandas>=2.2.3",
     "pip>=25.0.1",
     "python-git>=2018.2.1",
     "scikit-learn>=1.6.1",
     "seaborn>=0.13.2",
+    "sentence-transformers>=4.1.0",
     "spacy>=3.8.4",
     "torch>=2.6.0",
     "torchvision>=0.21.0",
